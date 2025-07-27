@@ -1,0 +1,7 @@
+{
+    "workbench.colorTheme": "Developers Theme - Firefox Dark",
+    "workbench.iconTheme": "developer-icon-theme",
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+    "css.lint.unknownAtRules": "ignore"
+}
