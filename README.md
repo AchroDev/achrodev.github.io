@@ -1,6 +1,6 @@
 # AchroDev - Personal Developer Portfolio
 
-![Portfolio Screenshot 1](public\images\portfolio_screenshot_1.png)
+![Portfolio Screenshot 1](public/images/portfolio_screenshot_1.png)
 
 This is the source code for my personal developer portfolio, live at [zbits.tech](https://zbits.tech). It's a fully responsive, multi-themed showcase of my projects and skills, built from the ground up with Next.js and styled with Tailwind CSS.
 
