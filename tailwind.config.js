@@ -1,13 +1,5 @@
 const animate = require("tailwindcss-animate");
 
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  output: "export",
-  images: {
-    unoptimized: true,
-  },
-};
-
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   darkMode: ["class"],
@@ -70,5 +62,3 @@ module.exports = {
   },
   plugins: [animate],
 };
-
-module.exports = nextConfig;
