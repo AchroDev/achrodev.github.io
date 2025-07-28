@@ -14,7 +14,7 @@ const projects = [
     description: "The very site you are looking at now, built with Next.js and animated with Framer Motion.",
     tags: ["Next.js", "React", "Tailwind CSS", "Shadcn", "Framer Motion"],
     link: "https://github.com/AchroDev/achrodev.github.io",
-    liveLink: "https://achro.dev", // Your live site URL
+    liveLink: "https://zbits.tech",
   },
   {
     title: "Echto",
