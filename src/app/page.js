@@ -12,15 +12,21 @@ const projects = [
   {
     title: "Personal Portfolio",
     description: "The very site you are looking at now, built with Next.js and animated with Framer Motion.",
-    tags: ["Next.js", "React", "Tailwind CSS", "Shadcn", "Framer Motion"],
+    tags: ["Next.js", "React", "Tailwind CSS", "Shadcn UI", "Framer Motion"],
     link: "https://github.com/AchroDev/achrodev.github.io",
     liveLink: "https://zbits.tech",
   },
   {
-    title: "Echto",
-    description: "A terminal-based text editor written from scratch in Rust, exploring low-level programming concepts.",
+    title: "TuiText",
+    description: "A terminal-based text editor wrote in Rust, exploring low-level programming concepts.",
     tags: ["Rust", "Terminal UI", "Systems Programming"],
-    link: "https://github.com/AchroDev/echto",
+    link: "https://github.com/AchroDev/TuiText",
+  },
+  {
+    title: "CannaPal",
+    description: "Track your garden, manage your seed bank, and log every detail of your cultivation journey. Join CannaPal and achieve your best harvest yet!",
+    tags: ["React", "Vite", "Firebase", "Tailwind CSS", "Shadcn UI", "Framer Motion"],
+    liveLink: "https://demo.cannapal.xyz/",
   },
   {
     title: "Koffee Kreme",
@@ -41,7 +47,7 @@ const projects = [
     link: "https://github.com/AchroDev/CannaBot",
   },
   {
-    title: "CannaPal",
+    title: "Next Project",
     wip: true, // This is the new flag
   },
 ];
@@ -61,10 +67,10 @@ export default function Home() {
     <main className="min-h-screen p-8 sm:p-16 lg:p-24">
       <div className="max-w-4xl mx-auto">
         <div className="flex justify-end">
-            <div className="flex items-center gap-2">
-              <ColorThemeSwitcher />
-              <ThemeToggle />
-            </div>
+          <div className="flex items-center gap-2">
+            <ColorThemeSwitcher />
+            <ThemeToggle />
+          </div>
         </div>
         {/* --- Header Section --- */}
         <motion.div
