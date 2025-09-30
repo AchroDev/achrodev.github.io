@@ -18,9 +18,15 @@ const projects = [
   },
   {
     title: "TuiText",
-    description: "A terminal-based text editor wrote in Rust, exploring low-level programming concepts.",
+    description: "A terminal-based text editor written in Rust, exploring low-level programming concepts.",
     tags: ["Rust", "Terminal UI", "Systems Programming"],
     link: "https://github.com/AchroDev/TuiText",
+  },
+  {
+    title: "Tauri-Tasks",
+    description: "A simple, but yet efficient, task manager built with Tauri.",
+    tags: ["React", "Next.js", "Tailwind CSS", "Shadcn UI", "Framer Motion"],
+    link: "https://github.com/AchroDev/tauri-tasks",
   },
   {
     title: "CannaPal",
